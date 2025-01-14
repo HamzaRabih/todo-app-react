@@ -59,7 +59,7 @@ src/
 
 ## 5. Création de l'application
 
-### 1. Installer `create-react-app`
+### 5.1. Installer `create-react-app`
 
 Pour créer une application de gestion de tâches avec `create-react-app`.
 
@@ -72,7 +72,7 @@ cd todo-app
 
 ### 5.2. Créer les composants
 
-#### 5.2.1. `TodoAdd.js`
+#### 5.2.1.  `TodoAdd.js`
 
 Ce composant permet d'ajouter une nouvelle tâche.
 
@@ -130,7 +130,7 @@ export default function TodoList({ todos, onToggleTodo, onDeleteTodo }) {
 
 ```
 
-#### `Todo.js`
+#### 5.2.3. `Todo.js`
 
 Ce composant représente une tâche individuelle.
 
@@ -160,7 +160,7 @@ export default function Todo({ todo, onToggleTodo, onDeleteTodo }) {
 
 ```
 
-#### `TodoStatus.js`
+#### 5.2.4. `TodoStatus.js`
 
 Ce composant affiche le nombre de tâches réalisées par rapport au nombre total de tâches.
 
@@ -180,7 +180,7 @@ export default function TodoStatus({ todos }) {
 
 ```
 
-### 4. `App.js`
+### 5.3 `App.js`
 
 Le composant principal `App` qui gère l'état global des tâches.
 
@@ -236,7 +236,7 @@ function App() {
 export default App;
 ```
 
-### 5. `index.js`
+### 5.4 `index.js`
 
 ```javascript
 import React from 'react';
@@ -247,7 +247,7 @@ import './index.css';
 ReactDOM.render(<App />,document.getElementById('root'));
 ```
 
-### 6. Lancer l'application
+## 6. Lancer l'application
 
 Enfin, lancez l'application avec :
 
