@@ -1,6 +1,8 @@
 ## 📋 Application de tâches "To-Do" avec React.js
 Cette application "To-Do" est une solution simple, élégante et fonctionnelle pour gérer vos tâches quotidiennes. Développée avec React.js, elle met en avant des fonctionnalités essentielles pour organiser efficacement votre liste de tâches.
 
+<image src="./capture/Capture2.png"/>
+
 # 📚 Table des matières
 1. [Fonctionnalités](#-fonctionnalités)
 2. [Technologies utilisées](#-technologies-utilisées)
@@ -24,6 +26,7 @@ Cette application "To-Do" est une solution simple, élégante et fonctionnelle p
 - **Cocher/Décocher les tâches** : Marquez une tâche comme terminée ou remettez-la en cours.
 - **Supprimer des tâches** : Supprimez les tâches terminées ou non pertinentes en un clic.
 - **Statistiques en direct** : Visualisez le nombre total de tâches et celles complétées.
+
 
 ## 🛠️ Technologies utilisées
 - **React.js** : Une bibliothèque JavaScript pour construire des interfaces utilisateur dynamiques.
