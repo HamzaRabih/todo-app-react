@@ -1,24 +1,48 @@
-## Application de tâches
+## 📋 Application de tâches "To-Do" avec React.js
+Cette application "To-Do" est une solution simple, élégante et fonctionnelle pour gérer vos tâches quotidiennes. Développée avec React.js, elle met en avant des fonctionnalités essentielles pour organiser efficacement votre liste de tâches.
 
-<image src="./capture/Capture2.png"/>
+# 📚 Table des matières
+1. [Fonctionnalités](#-fonctionnalités)
+2. [Technologies utilisées](#-technologies-utilisées)
+3. [Objectifs du projet](#-objectifs-du-projet)
+4. [Structure du projet](#-structure-du-projet)
+   - [4.1 Structure de l'application](#41-structure-de-lapplication)
+   - [4.2 Structure des fichiers](#42-structure-des-fichiers)
+5. [Création de l'application](#-création-de-lapplication)
+   - [5.1 Installer `create-react-app`](#51-installer-create-react-app)
+   - [5.2 Créer les composants](#52-créer-les-composants)
+     - [5.2.1 Composant TodoAdd](#521-composant-todoadd)
+     - [5.2.2 Composant TodoList](#522-composant-todolist)
+     - [5.2.3 Composant Todo](#523-composant-todo)
+     - [5.2.4 Composant TodoStatus](#524-composant-todostatus)
+   - [5.3 Composant principal App](#53-composant-principal-app)
+   - [5.4 `index.js`](#54-indexjs)
+6. [Lancer l'application](#6-lancer-lapplication)
 
-Pour créer une application de gestion de tâches avec `create-react-app`.
+## 🚀 Fonctionnalités
+- **Ajouter des tâches** : Ajoutez rapidement de nouvelles tâches à votre liste.
+- **Cocher/Décocher les tâches** : Marquez une tâche comme terminée ou remettez-la en cours.
+- **Supprimer des tâches** : Supprimez les tâches terminées ou non pertinentes en un clic.
+- **Statistiques en direct** : Visualisez le nombre total de tâches et celles complétées.
 
-### 1. Installer `create-react-app`
+## 🛠️ Technologies utilisées
+- **React.js** : Une bibliothèque JavaScript pour construire des interfaces utilisateur dynamiques.
+- **CSS** : Style moderne et responsive pour une meilleure expérience utilisateur.
 
-Si vous ne l'avez pas déjà fait, commencez par installer `create-react-app` :
+## 🎯 Objectifs du projet
+- Fournir une base simple pour apprendre et explorer les concepts fondamentaux de React.js, comme les composants, états et props.
+- Proposer une interface utilisateur minimaliste et conviviale pour gérer des tâches.
 
-```bash
-npx create-react-app todo-app
-cd todo-app
-```
-### 2. Structure de l'application
+## 4 📂 Structure du projet
+
+### 4.1 Structure de l'application
 
 <image src="./capture/Capture1.png"/>
 
-### 3. Structure des fichiers
+### 4.2 Structure des fichiers
 
 Voici une structure de fichiers possible pour votre application :
+
 
 ```
 src/
@@ -33,9 +57,22 @@ src/
 └── index.css
 ```
 
-### 3. Créer les composants
+## 5. Création de l'application
 
-#### `TodoAdd.js`
+### 1. Installer `create-react-app`
+
+Pour créer une application de gestion de tâches avec `create-react-app`.
+
+Si vous ne l'avez pas déjà fait, commencez par installer `create-react-app` :
+
+```bash
+npx create-react-app todo-app
+cd todo-app
+```
+
+### 5.2. Créer les composants
+
+#### 5.2.1. `TodoAdd.js`
 
 Ce composant permet d'ajouter une nouvelle tâche.
 
@@ -68,7 +105,7 @@ function TodoAdd({ onAddTodo }) {
 export default TodoAdd;
 ```
 
-#### `TodoList.js`
+#### 5.2.2 `TodoList.js`
 
 Ce composant affiche la liste des tâches.
 
